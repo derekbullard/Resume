@@ -1,3 +1,10 @@
+.container{
+  background-color: #a6a6a6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .hero-image{
   background-image: url("https://i2.wp.com/www.hipsthetic.com/wp-content/uploads/2016/04/Desert-Night-Desktop-Wallpaper.png");
   height: 100%;
@@ -8,11 +15,43 @@
   position: relative;
 
 }
-body, html {
+body,html{
   height: 100%;
 }
+body {
+  /* Full screen width and height */
+  width: 100%;
+  
+
+
+
+
+
+}
+
+#container {
+  /* This will come into play later */
+  perspective: 40px;
+}
+#inner {
+  transition: transform 0.5s;
+}
+#inner {
+
+}
+.tools{
+  background-color: white;
+}
+.padding{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.space{
+  padding-bottom: 50px;
+
+}
 .face{
-  padding-top: 20px;
+  padding-top: 30px;
 
   color: white;
   text-align: center;
@@ -26,7 +65,7 @@ body, html {
   color: white;
   padding-top: 350px;
 }
-img{
+.img{
 
   align-items: center;
   margin-right: auto;
@@ -59,4 +98,16 @@ body{
 }
 .navbar{
   background:#8c8c8c;
+}
+.margins1{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.margins2{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.margins3{
+  margin-left: 40%;
+  margin-right: 40%;
 }
